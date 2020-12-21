@@ -1,1 +1,41 @@
-undefined
+{
+	"entity": {
+		"BP/entities/football.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"mcfootball:football"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"item": {
+		"BP/items/football.json": {
+			"identifiers": [
+				"mcfootball:football"
+			],
+			"custom_commands": []
+		}
+	}
+}
